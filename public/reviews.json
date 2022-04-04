@@ -1,0 +1,38 @@
+[
+    {
+        "id": "federer",
+        "name": "Roger Federer",
+        "text": "This is excellent looking shirt.",
+        "rating": 4.8
+    },
+    {
+        "id": "anna",
+        "name": "Anna Kournikova",
+        "text": "They look at me instead of my game when I'm wearing this!",
+        "rating": 3.8
+    },
+    {
+        "id": "nadal",
+        "name": "Rafael Nadal",
+        "text": "I look so cool in this!",
+        "rating": 4.5
+    },
+    {
+        "id": "novak",
+        "name": "Novak Djokovic",
+        "text": "I look so cool in this!",
+        "rating": 4.5
+    },
+    {
+        "id": "murray",
+        "name": "Andy Murray",
+        "text": "This is excellent looking shirt.",
+        "rating": 4.8
+    },
+    {
+        "id": "monika",
+        "name": "Monika Seles",
+        "text": "They look at me instead of my game when I'm wearing this!",
+        "rating": 3.8
+    }
+]
