@@ -9,7 +9,7 @@ const Home = () => {
         navigate('/reviews');
     };
     return (
-        <div class="content">
+        <div className="content">
             <div className="home">
                 <div className="half left">
                     <h1>Shopping Overhaul</h1>
@@ -32,7 +32,7 @@ const Home = () => {
             <div className="home-reviews">
                 <h3>Customer Reviews</h3>
                 <Reviews itemNum={3}></Reviews>
-                <p style={{ textAlign: 'center' }}>
+                <p style={{ textAlign: 'center', marginBottom: '50px' }}>
                     <button onClick={goToReviews} className="btn btn-primary">
                         See All Reviews
                     </button>

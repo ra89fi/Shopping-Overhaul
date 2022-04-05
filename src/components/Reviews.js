@@ -6,7 +6,7 @@ import useReviews from '../hooks/useReviews';
 import './Reviews.css';
 
 const Reviews = ({ itemNum }) => {
-    const [reviews, setReviews] = useReviews();
+    const [reviews] = useReviews();
     const isReviewsPage = itemNum === reviews.length;
     itemNum = itemNum || reviews.length;
     reviews.splice(itemNum);
@@ -21,7 +21,7 @@ const Reviews = ({ itemNum }) => {
             )}
             <div className="reviews">
                 {reviews.map((review) => (
-                    <div className="item">
+                    <div key={review.id} className="item">
                         <div className="head">
                             <img src="user.jpg" alt="User" />
                             <h5>{review.name}</h5>

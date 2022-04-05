@@ -1,0 +1,16 @@
+.dashboard {
+    padding-top: 2.5rem;
+    display: flex;
+}
+
+.dashboard .half {
+    padding: 0 15px;
+}
+
+.dashboard .half h4 {
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 1.2rem;
+    color: #0d6efd;
+}
