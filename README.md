@@ -4,8 +4,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Live Site
 
-Live site is [Name](link).
+Live site is [eloquent-youtiao-be31ad](https://eloquent-youtiao-be31ad.netlify.app/).
 
 ## Description
 
-4 bullet points about this site.
+<ul>
+  <li>This site uses latest React.</li>
+  <li>It also uses React hooks.</li>
+  <li>Recharts is used as charting library.</li>
+  <li>Bootstrap is used as CSS library.</li>
+</ul>
